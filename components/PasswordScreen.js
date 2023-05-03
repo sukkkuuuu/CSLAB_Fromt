@@ -7,7 +7,7 @@ const PasswordScreen = () => {
     const [ email, setEmail] = useState('');
     return (
     <View style={styles.container}>
-    <Text>비밀번호 찾기</Text>
+    <Text>비밀번호 찾기?</Text>
     <TextInput 
         style = {styles.input}
         onChangeText={(newtext) => setEmail(newtext)}
