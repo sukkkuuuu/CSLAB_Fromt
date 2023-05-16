@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import { StatusBar } from 'expo-status-bar';
 import React, {useState} from 'react';
 import { Button, StyleSheet, Text, TextInput, View } from 'react-native';
@@ -7,7 +8,7 @@ const PasswordScreen = () => {
     const [ email, setEmail] = useState('');
     return (
     <View style={styles.container}>
-    <Text>비밀번호 찾기?</Text>
+    <Text>비밀번호 찾기</Text>
     <TextInput 
         style = {styles.input}
         onChangeText={(newtext) => setEmail(newtext)}
@@ -32,9 +33,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     },
     input : {
-    height : 40,
+    height : 50,
     borderWidth: 1,
     padding: 10,
+    margin: 12,
+    borderRadius:50
     }
 });
 
