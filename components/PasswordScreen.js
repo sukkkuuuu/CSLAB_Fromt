@@ -53,12 +53,10 @@ const styles = StyleSheet.create({
     },
     input: {
         height: 50,
-        width: 200,
         margin: 12,
         borderWidth: 1,
         padding: 10,
         borderRadius: 50,
     },
-    btn: {},
 });
 export default PasswordScreen;
